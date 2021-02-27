@@ -8,10 +8,11 @@ module.exports = {
         "index": "./src/index.js",
         "print": "./src/print.js"
     },
+    "devtool": "inline-source-map",
     "plugins": [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Output Management from webpack'
+            title: 'Development'
         })
     ],
     "output": {
