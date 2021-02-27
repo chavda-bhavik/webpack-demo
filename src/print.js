@@ -1,4 +1,4 @@
 export default function printMe() {
     //console.log('printMe called!');
-    cosnole.log('printMe called 2!');
+    console.log('printMe called 2!');
 }
